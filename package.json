@@ -1,0 +1,44 @@
+{
+  "name": "jolie",
+  "version": "1.0.0",
+  "description": "secured product website for clothing wholesaler, Jolie (live client)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolcat-310/FashionStore.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mysql",
+    "sequelize",
+    "mvc",
+    "body-parser",
+    "handlebars",
+    "bcrypt-nodejs",
+    "passport",
+    "clothing",
+    "wholesaler"
+  ],
+  "author": "Marcos Lee, Julia Pannewitz, Juan Navarrete, Mai Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolcat-310/FashionStore/issues"
+  },
+  "homepage": "https://github.com/coolcat-310/FashionStore#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.4"
+  }
+}
